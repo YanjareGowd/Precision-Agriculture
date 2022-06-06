@@ -1,0 +1,50 @@
+  
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fertilizer</title>
+
+</head>
+
+    <body bgcolor="Orange">
+    
+        <center>
+    <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <h1 style="font-size:6vw">  Suggested Fertilizer  </h1>
+        
+        {%if data == 0%}
+        <h1 style="font-size:4vw">10-26-26</h1>
+        <!-- <img src='static\setosa.jpg'>   -->
+
+        {%elif data == 1%}
+        <h1 style="font-size:4vw">14-35-14</h1>
+
+        {%elif data == 2%}
+        <h1 style="font-size:4vw">17-17-17</h1>
+
+        {%elif data == 3%}
+        <h1 style="font-size:4vw">20-20</h1>
+
+        {%elif data == 4%}
+        <h1 style="font-size:4vw">28-28</h1>
+
+        {%elif data == 5%}
+        <h1 style="font-size:4vw">DAP</h1>
+    
+        {%else%}
+        <h1 style="font-size:4vw">Urea</h1>
+        <!-- <img src='static\verci.jpg'> -->
+        
+        {%endif%}
+    
+            <br><br>
+        <a href='/'>go back to home page</a>
+    
+        </center>
+    
+    </body>
+    
+    </html>
