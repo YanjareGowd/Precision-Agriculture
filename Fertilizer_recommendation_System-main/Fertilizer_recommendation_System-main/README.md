@@ -21,7 +21,5 @@ Dataset: [Fertlizer Prediction Dataset](https://www.kaggle.com/gdabhishek/fertil
       Best score = 97.48%
       
 # Web-Implementation using Flask
-![image](https://user-images.githubusercontent.com/56165694/129437840-bf2f4534-7ea4-435a-830e-76de2d20320b.png)
-![image](https://user-images.githubusercontent.com/56165694/129437863-401f501a-269b-46bd-8f99-4d5334643cbc.png)
 
 
